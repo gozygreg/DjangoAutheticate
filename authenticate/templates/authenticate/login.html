@@ -1,0 +1,17 @@
+{% extends 'authenticate/base.html' %}
+
+{% block content %}
+<h2 class="text-center">Login</h2>
+
+<div class="col-md-6 offset-md-3">
+    <form>
+        <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Enter Username" name="username">
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Enter Password" name="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
+{% endblock %}
